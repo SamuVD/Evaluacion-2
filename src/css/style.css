@@ -3,21 +3,96 @@ Nombre Completo: Samuel Villarreal Duque
 Clan: Gates
 fecha: 08/ 04/ 2024
 */
+
+/*Seteo de página*/
 html {
+    box-sizing: border-box;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    letter-spacing: 1.2px;
 }
 
-
-
-
-
-
+* {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
 
 :root {
     --negro: rgb(0, 0, 0);
     --blanco: #f1f1f1;
 }
 
+body {
+    background-image: url(../../public/img/background-page.webp);
+}
+/*Inicio del header*/
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contenedor-header {
+    color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotipo img {
+    width: 350px;
+    margin: 30px 0px 10px 50px;
+}
+
+nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.barra-nav {
+    display: flex;
+    padding: 0px 650px 0px 0px;
+    margin-top: 16px;
+    margin-left: 20px;
+    gap: 15px;
+}
+
+.icons-quemados {
+    font-size: 27px;
+    display: flex;
+    margin-top: 30px;
+    margin-right: 200px;
+    gap: 25px;
+}
+/*INICIO DEL MAIN*/
+/*Imágen central*/
+.home-img img {
+    width: 1400px;
+}
+.home-img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+/*Galería*/
+.contenedor-galeria {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    background-color: skyblue;
+    background-size: 100px;
+    background-size: cover;
+    background-position: center;
+    padding: .1px;
+}
+.contenedor-galeria img {
+    width: 400px;
+    height: 400px;
+}
+.contenedor-galeria a {
+    font-size: 20px;
+    color: var(--blanco);
+    text-decoration: none;
+}
 
 
 
